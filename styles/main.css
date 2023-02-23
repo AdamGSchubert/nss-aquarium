@@ -1,0 +1,35 @@
+.fishSite{
+    display: flex;
+    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+.fishList{
+    border: dotted;
+    border-width: 2px;
+    
+}
+.fish{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    border: solid;
+    border-color: purple;
+}
+.fish__image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 100px;
+}
+.fishTravel{
+    border: dashed;
+    border-width: 2px;
+}
+.fishMaint{
+    border: solid;
+    border-color: red;
+}
